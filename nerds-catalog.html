@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Nerds</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/nerds-style.css">
+</head>
+<body class="inner-page">
+	<header class="main-header">
+		<div class="container clearfix">
+			<div class="header-logo"><a href="index.html"><img src="img/nerds-logo.png" alt=""></a></div>
+			<nav class="main-navigation">
+				<ul>
+					<li><a href="index.html">cтудия</a></li>
+					<li><a href="#">клиенты</a></li>
+					<li><a href="#" class="active">магазин</a></li>
+					<li><a href="#">контакты</a></li>
+				</ul>
+			</nav>
+			<div class="basket">
+				<a href="#">корзина</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="cotalog-title">
+			<div class="container">
+				<h1 class="inner-page-title">Магазин готовых шаблонов</h1>
+			</div>
+		</div>
+		<div class="container">
+			<div class="main-content clearfix">
+				<div class="left-column">
+					<form class="sort-filter" action="/echo" method="get">
+						<div class="range-filter">
+							<p class="filter-title">стоимость:</p>
+					        <div class="range-controls">
+					        	<div class="scale">
+					        		<div class="bar" style="margin-left: 20%; width: 30%"></div>
+					        	</div>
+					        	<div class="toggle toggle-min"></div>
+					        	<div class="toggle toggle-max"></div>
+					        </div>
+					        <div class="price-controls">
+					        	<label class="min-price">от <input name="min-price" type="text" value="0"></label>
+					        	<label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+					        </div>
+					    </div>
+				        <div class="radio">
+					        <p class="filter-title">сетка:</p>
+					        	<div class="container-filter">
+						        	<label class="form-radio">
+						        		<input type="radio" name="grid">
+						        		<span class="radio-indicator"></span>Адаптивная
+						        	</label><br>
+						        	<label class="form-radio">
+						        		<input type="radio" name="grid">
+						        		<span class="radio-indicator"></span>Фиксированная
+						        	</label><br>
+						        	<label class="form-radio">
+						        		<input type="radio" name="grid">
+						        		<span class="radio-indicator"></span>Резиновая
+						        	</label>
+					        	</div>
+				        </div>
+				        <div class="checkbox">
+				        	<p class="filter-title">особенности:</p>
+				        	<div class="container-filter">
+					        	
+					        	<label class="form-checkbox">
+					        		<input type="checkbox" name="slide" id="slide-field" checked>
+					        		<span class="radio-indicator"></span>слайдер
+					        	</label><br>
+					        	
+					        	<label class="form-checkbox">
+					        		<input type="checkbox" name="advantages" id="advantages-field">
+					        		<span class="radio-indicator"></span>Блок преимуществ
+					        	</label><br>
+					        	
+					        	<label class="form-checkbox">
+					        		<input type="checkbox" name="news" id="news-field" checked>
+					        		<span class="radio-indicator"></span>Новости
+					        	</label><br>
+					        	
+					        	<label class="form-checkbox">
+					        		<input type="checkbox" name="gallery" id="gallery-field" disabled>
+					        		<span class="radio-indicator"></span>Галерея
+					        	</label><br>
+					        	
+					        	<label class="form-checkbox">
+					        		<input type="checkbox" name="basket" id="basket-field">
+					        		<span class="radio-indicator"></span>Корзина
+					        	</label>
+				        	</div>
+				        </div>
+				        <div class="form-btn">
+				        	<button type="button" class="btn">показать</button>
+				        </div>
+
+					</form>
+				</div>
+				<div class="right-column">
+					<div class="sorting clearfix">
+						<b class="filter-title filter-sort">сортировать:</b>
+						<div class="sorting-title">
+							<a class="active" href="#">по цене</a>
+							<a href="#">по типу</a>
+							<a href="#">по названию</a>
+							<a href="#"></a>
+							<a href="#"></a>
+						</div>
+					</div>
+					<div class="projects clearfix">
+						<div class="exemple"><img src="img/browser.png" alt=""><img src="img/img-sedona.jpg" alt="">
+							<div class="buy">
+								<h2>Sedona</h2>
+								<p>Информационный сайт для туристов</p>
+								<a class="btn" href="#">9900 РУБ.</a>
+							</div>
+						</div>
+						<div class="exemple"><img src="img/browser.png" alt=""><img src="img/img-pink.jpg" alt="">
+							<div class="buy">
+								<h2>Sedona</h2>
+								<p>Информационный сайт для туристов</p>
+								<a class="btn" href="#">9900 РУБ.</a>
+							</div>
+						</div>
+						<div class="exemple"><img src="img/browser.png" alt=""><img src="img/img-barbershop.jpg" alt="">
+							<div class="buy">
+								<h2>Sedona</h2>
+								<p>Информационный сайт для туристов</p>
+								<a class="btn" href="#">9900 РУБ.</a>
+							</div>
+						</div>
+						<div class="exemple"><img src="img/browser.png" alt=""><img src="img/img-mishka.jpg" alt="">
+							<div class="buy">
+								<h2>Sedona</h2>
+								<p>Информационный сайт для туристов</p>
+								<a class="btn" href="#">9900 РУБ.</a>
+							</div>
+						</div>
+						<div class="exemple"><img src="img/browser.png" alt=""><img src="img/img-aplus.jpg" alt="">
+							<div class="buy">
+								<h2>Sedona</h2>
+								<p>Информационный сайт для туристов</p>
+								<a class="btn" href="#">9900 РУБ.</a>
+							</div>
+						</div>
+						<div class="exemple"><img src="img/browser.png" alt=""><img src="img/img-kvast.jpg" alt="">
+							<div class="buy">
+								<h2>Sedona</h2>
+								<p>Информационный сайт для туристов</p>
+								<a class="btn" href="#">9900 РУБ.</a>
+							</div>
+						</div>
+					</div>
+					<div class="page-switch">
+						<a href="#" class="active"><span>1</span></a>
+						<a href="#"><span>2</span></a>
+						<a href="#"><span>3</span></a>
+						<a href="#" class="next"><span>следущая</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="adress-on-map">
+			<div class="map"><img src="img/map.png" alt=""></div>
+			<div class="adress">
+				<h2>NЁRDS DESIGN STUDIO</h2>
+				<p>191186, Санкт-Петербург,<br> 
+				ул. Б. Конюшенная, д. 19/8<br>
+				<br>
+				тел. +7 (812) 275-75-75</p>
+				<a href="#" class="btn red-btn-map">напишите нам</a>
+			</div>
+			<div class="map-marker"><img src="img/map-marker.png" alt="вот тут!"></div>
+		</div>
+	</main>
+	<footer class="main-footer">
+		<div class="container clearfix">
+			<div class="footer-social">
+				<a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+				<a href="#" class="social-btn social-btn-fb">Фесбук</a>
+				<a href="#" class="social-btn social-btn-insta">Инстаграм</a>
+			</div>
+			<div class="footer-discount">
+				<b>Давайте дружить, это выгодно!</b>
+				<p>Скидка 10% для друзей из социальных сетей.</p>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
